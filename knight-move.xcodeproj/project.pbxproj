@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BF51AD4243E3F0B009A2BE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF51AD3243E3F0B009A2BE3 /* AppDelegate.m */; };
+		7BF51AD7243E3F0B009A2BE3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF51AD6243E3F0B009A2BE3 /* SceneDelegate.m */; };
+		7BF51ADA243E3F0B009A2BE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF51AD9243E3F0B009A2BE3 /* ViewController.m */; };
+		7BF51ADD243E3F0B009A2BE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF51ADB243E3F0B009A2BE3 /* Main.storyboard */; };
+		7BF51ADF243E3F0C009A2BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF51ADE243E3F0C009A2BE3 /* Assets.xcassets */; };
+		7BF51AE2243E3F0C009A2BE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BF51AE0243E3F0C009A2BE3 /* LaunchScreen.storyboard */; };
+		7BF51AE5243E3F0C009A2BE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF51AE4243E3F0C009A2BE3 /* main.m */; };
+		7BF51AEF243E3F0D009A2BE3 /* knight_moveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF51AEE243E3F0D009A2BE3 /* knight_moveTests.m */; };
+		7BF51AFA243E3F0D009A2BE3 /* knight_moveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF51AF9243E3F0D009A2BE3 /* knight_moveUITests.m */; };
+		7BF51B09243E45F5009A2BE3 /* chessBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF51B08243E45F5009A2BE3 /* chessBoardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BF51AEB243E3F0D009A2BE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BF51AC7243E3F0B009A2BE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BF51ACE243E3F0B009A2BE3;
+			remoteInfo = "knight-move";
+		};
+		7BF51AF6243E3F0D009A2BE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BF51AC7243E3F0B009A2BE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BF51ACE243E3F0B009A2BE3;
+			remoteInfo = "knight-move";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BF51ACF243E3F0B009A2BE3 /* knight-move.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "knight-move.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF51AD2243E3F0B009A2BE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BF51AD3243E3F0B009A2BE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BF51AD5243E3F0B009A2BE3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7BF51AD6243E3F0B009A2BE3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7BF51AD8243E3F0B009A2BE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7BF51AD9243E3F0B009A2BE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7BF51ADC243E3F0B009A2BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BF51ADE243E3F0C009A2BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BF51AE1243E3F0C009A2BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BF51AE3243E3F0C009A2BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF51AE4243E3F0C009A2BE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BF51AEA243E3F0D009A2BE3 /* knight-moveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "knight-moveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF51AEE243E3F0D009A2BE3 /* knight_moveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = knight_moveTests.m; sourceTree = "<group>"; };
+		7BF51AF0243E3F0D009A2BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF51AF5243E3F0D009A2BE3 /* knight-moveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "knight-moveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF51AF9243E3F0D009A2BE3 /* knight_moveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = knight_moveUITests.m; sourceTree = "<group>"; };
+		7BF51AFB243E3F0D009A2BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BF51B07243E45F5009A2BE3 /* chessBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chessBoardView.h; sourceTree = "<group>"; };
+		7BF51B08243E45F5009A2BE3 /* chessBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chessBoardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BF51ACC243E3F0B009A2BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF51AE7243E3F0D009A2BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF51AF2243E3F0D009A2BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BF51AC6243E3F0B009A2BE3 = {
+			isa = PBXGroup;
+			children = (
+				7BF51AD1243E3F0B009A2BE3 /* knight-move */,
+				7BF51AED243E3F0D009A2BE3 /* knight-moveTests */,
+				7BF51AF8243E3F0D009A2BE3 /* knight-moveUITests */,
+				7BF51AD0243E3F0B009A2BE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BF51AD0243E3F0B009A2BE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BF51ACF243E3F0B009A2BE3 /* knight-move.app */,
+				7BF51AEA243E3F0D009A2BE3 /* knight-moveTests.xctest */,
+				7BF51AF5243E3F0D009A2BE3 /* knight-moveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BF51AD1243E3F0B009A2BE3 /* knight-move */ = {
+			isa = PBXGroup;
+			children = (
+				7BF51AD2243E3F0B009A2BE3 /* AppDelegate.h */,
+				7BF51AD3243E3F0B009A2BE3 /* AppDelegate.m */,
+				7BF51B07243E45F5009A2BE3 /* chessBoardView.h */,
+				7BF51B08243E45F5009A2BE3 /* chessBoardView.m */,
+				7BF51AD5243E3F0B009A2BE3 /* SceneDelegate.h */,
+				7BF51AD6243E3F0B009A2BE3 /* SceneDelegate.m */,
+				7BF51AD8243E3F0B009A2BE3 /* ViewController.h */,
+				7BF51AD9243E3F0B009A2BE3 /* ViewController.m */,
+				7BF51ADB243E3F0B009A2BE3 /* Main.storyboard */,
+				7BF51ADE243E3F0C009A2BE3 /* Assets.xcassets */,
+				7BF51AE0243E3F0C009A2BE3 /* LaunchScreen.storyboard */,
+				7BF51AE3243E3F0C009A2BE3 /* Info.plist */,
+				7BF51AE4243E3F0C009A2BE3 /* main.m */,
+			);
+			path = "knight-move";
+			sourceTree = "<group>";
+		};
+		7BF51AED243E3F0D009A2BE3 /* knight-moveTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BF51AEE243E3F0D009A2BE3 /* knight_moveTests.m */,
+				7BF51AF0243E3F0D009A2BE3 /* Info.plist */,
+			);
+			path = "knight-moveTests";
+			sourceTree = "<group>";
+		};
+		7BF51AF8243E3F0D009A2BE3 /* knight-moveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BF51AF9243E3F0D009A2BE3 /* knight_moveUITests.m */,
+				7BF51AFB243E3F0D009A2BE3 /* Info.plist */,
+			);
+			path = "knight-moveUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BF51ACE243E3F0B009A2BE3 /* knight-move */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF51AFE243E3F0D009A2BE3 /* Build configuration list for PBXNativeTarget "knight-move" */;
+			buildPhases = (
+				7BF51ACB243E3F0B009A2BE3 /* Sources */,
+				7BF51ACC243E3F0B009A2BE3 /* Frameworks */,
+				7BF51ACD243E3F0B009A2BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "knight-move";
+			productName = "knight-move";
+			productReference = 7BF51ACF243E3F0B009A2BE3 /* knight-move.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BF51AE9243E3F0D009A2BE3 /* knight-moveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF51B01243E3F0D009A2BE3 /* Build configuration list for PBXNativeTarget "knight-moveTests" */;
+			buildPhases = (
+				7BF51AE6243E3F0D009A2BE3 /* Sources */,
+				7BF51AE7243E3F0D009A2BE3 /* Frameworks */,
+				7BF51AE8243E3F0D009A2BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BF51AEC243E3F0D009A2BE3 /* PBXTargetDependency */,
+			);
+			name = "knight-moveTests";
+			productName = "knight-moveTests";
+			productReference = 7BF51AEA243E3F0D009A2BE3 /* knight-moveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7BF51AF4243E3F0D009A2BE3 /* knight-moveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF51B04243E3F0D009A2BE3 /* Build configuration list for PBXNativeTarget "knight-moveUITests" */;
+			buildPhases = (
+				7BF51AF1243E3F0D009A2BE3 /* Sources */,
+				7BF51AF2243E3F0D009A2BE3 /* Frameworks */,
+				7BF51AF3243E3F0D009A2BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BF51AF7243E3F0D009A2BE3 /* PBXTargetDependency */,
+			);
+			name = "knight-moveUITests";
+			productName = "knight-moveUITests";
+			productReference = 7BF51AF5243E3F0D009A2BE3 /* knight-moveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BF51AC7243E3F0B009A2BE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Thomas Ntais";
+				TargetAttributes = {
+					7BF51ACE243E3F0B009A2BE3 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					7BF51AE9243E3F0D009A2BE3 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 7BF51ACE243E3F0B009A2BE3;
+					};
+					7BF51AF4243E3F0D009A2BE3 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 7BF51ACE243E3F0B009A2BE3;
+					};
+				};
+			};
+			buildConfigurationList = 7BF51ACA243E3F0B009A2BE3 /* Build configuration list for PBXProject "knight-move" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BF51AC6243E3F0B009A2BE3;
+			productRefGroup = 7BF51AD0243E3F0B009A2BE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BF51ACE243E3F0B009A2BE3 /* knight-move */,
+				7BF51AE9243E3F0D009A2BE3 /* knight-moveTests */,
+				7BF51AF4243E3F0D009A2BE3 /* knight-moveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BF51ACD243E3F0B009A2BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF51AE2243E3F0C009A2BE3 /* LaunchScreen.storyboard in Resources */,
+				7BF51ADF243E3F0C009A2BE3 /* Assets.xcassets in Resources */,
+				7BF51ADD243E3F0B009A2BE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF51AE8243E3F0D009A2BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF51AF3243E3F0D009A2BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BF51ACB243E3F0B009A2BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF51B09243E45F5009A2BE3 /* chessBoardView.m in Sources */,
+				7BF51ADA243E3F0B009A2BE3 /* ViewController.m in Sources */,
+				7BF51AD4243E3F0B009A2BE3 /* AppDelegate.m in Sources */,
+				7BF51AE5243E3F0C009A2BE3 /* main.m in Sources */,
+				7BF51AD7243E3F0B009A2BE3 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF51AE6243E3F0D009A2BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF51AEF243E3F0D009A2BE3 /* knight_moveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BF51AF1243E3F0D009A2BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF51AFA243E3F0D009A2BE3 /* knight_moveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BF51AEC243E3F0D009A2BE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BF51ACE243E3F0B009A2BE3 /* knight-move */;
+			targetProxy = 7BF51AEB243E3F0D009A2BE3 /* PBXContainerItemProxy */;
+		};
+		7BF51AF7243E3F0D009A2BE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BF51ACE243E3F0B009A2BE3 /* knight-move */;
+			targetProxy = 7BF51AF6243E3F0D009A2BE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BF51ADB243E3F0B009A2BE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BF51ADC243E3F0B009A2BE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BF51AE0243E3F0C009A2BE3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BF51AE1243E3F0C009A2BE3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BF51AFC243E3F0D009A2BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BF51AFD243E3F0D009A2BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BF51AFF243E3F0D009A2BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 923Q48B2WY;
+				INFOPLIST_FILE = "knight-move/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kn-softapps.knight-move";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BF51B00243E3F0D009A2BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 923Q48B2WY;
+				INFOPLIST_FILE = "knight-move/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kn-softapps.knight-move";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7BF51B02243E3F0D009A2BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "knight-moveTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kn-softapps.knight-moveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/knight-move.app/knight-move";
+			};
+			name = Debug;
+		};
+		7BF51B03243E3F0D009A2BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "knight-moveTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kn-softapps.knight-moveTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/knight-move.app/knight-move";
+			};
+			name = Release;
+		};
+		7BF51B05243E3F0D009A2BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "knight-moveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kn-softapps.knight-moveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "knight-move";
+			};
+			name = Debug;
+		};
+		7BF51B06243E3F0D009A2BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "knight-moveUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kn-softapps.knight-moveUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "knight-move";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BF51ACA243E3F0B009A2BE3 /* Build configuration list for PBXProject "knight-move" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF51AFC243E3F0D009A2BE3 /* Debug */,
+				7BF51AFD243E3F0D009A2BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF51AFE243E3F0D009A2BE3 /* Build configuration list for PBXNativeTarget "knight-move" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF51AFF243E3F0D009A2BE3 /* Debug */,
+				7BF51B00243E3F0D009A2BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF51B01243E3F0D009A2BE3 /* Build configuration list for PBXNativeTarget "knight-moveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF51B02243E3F0D009A2BE3 /* Debug */,
+				7BF51B03243E3F0D009A2BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF51B04243E3F0D009A2BE3 /* Build configuration list for PBXNativeTarget "knight-moveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF51B05243E3F0D009A2BE3 /* Debug */,
+				7BF51B06243E3F0D009A2BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BF51AC7243E3F0B009A2BE3 /* Project object */;
+}
