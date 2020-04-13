@@ -182,7 +182,9 @@
             } completion:^(BOOL finished){
                 UIViewKeyframeAnimationOptions anOptions = UIViewKeyframeAnimationOptionCalculationModeLinear;
                 [UIView animateKeyframesWithDuration:0.0 delay:0.0 options:anOptions animations:^(void){
-                    self.knight.frame = CGRectMake(self.rectWidth * self.movesStartPoint.h, self.rectWidth * self.movesStartPoint.v, self.rectWidth, self.rectWidth);
+                    if(self.animationCounter < self.moveSolutions.count-1) {
+                        self.knight.frame = CGRectMake(self.rectWidth * self.movesStartPoint.h, self.rectWidth * self.movesStartPoint.v, self.rectWidth, self.rectWidth);
+                    }
                 } completion:^(BOOL finished) {
                     [self repeatWithNextAnimation];
                 }];
@@ -199,7 +201,7 @@
     } else {
         [knight removeFromSuperview];
         ViewController *sV = (ViewController *)[self viewController];
-        sV.textLabel.text = @"Press Clear button to start";
+        sV.textLabel.text = @"Press Clear button";
         [sV.clearButton setUserInteractionEnabled:YES];
     }
 }
